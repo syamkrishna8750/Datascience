@@ -1,0 +1,16 @@
+Ingredient,Sweetness,Crunchiness,FoodType
+Apple,8,7,Fruit
+Banana,9,2,Fruit
+Carrot,3,9,Vegetable
+Cucumber,2,8,Vegetable
+Mango,10,5,Fruit
+Potato,1,7,Vegetable
+Onion,2,6,Vegetable
+Strawberry,9,4,Fruit
+Grapes,8,3,Fruit
+Broccoli,1,8,Vegetable
+Orange,7,5,Fruit
+Lettuce,1,9,Vegetable
+Pear,7,6,Fruit
+Biscuit,6,7,Snack
+Chips,5,10,Snack
