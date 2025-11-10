@@ -1,0 +1,11 @@
+n = int(input("Enter number of pairs: "))
+pair = []
+
+for i in range(n):
+    key = input(f"Enter key {i+1}: ")
+    value = input(f"Enter value {i+1}: ")
+    pair.append((key, value))
+
+result = dict(pair)
+print("\nAfter conversion:", result)
+
