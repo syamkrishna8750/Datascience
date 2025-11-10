@@ -1,0 +1,7 @@
+dict1 = {input("Key1: "): input("Value1: ") for _ in range(int(input("No. of pairs for 1st dict: ")))}
+dict2 = {input("Key2: "): input("Value2: ") for _ in range(int(input("No. of pairs for 2nd dict: ")))}
+
+merged = dict1.copy()
+merged.update(dict2)
+print("Merged using update():", merged)
+
