@@ -13,7 +13,7 @@ X_scaled = scaler.fit_transform(X)
 tomato = pd.DataFrame({"Sweetness": [4], "Crunchiness": [6]})
 tomato_scaled = scaler.transform(tomato)
 
-knn = KNeighborsClassifier(n_neighbors=3) # k=3
+knn = KNeighborsClassifier(n_neighbors=3) 
 knn.fit(X_scaled, y)
 
 prediction = knn.predict(tomato_scaled)
