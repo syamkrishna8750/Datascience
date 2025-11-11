@@ -1,12 +1,23 @@
 import numpy as np
 
-A = np.matrix([[1, 2, 3], [1, 1, 1], [1, 1, 1]])
-B = np.matrix([[1, 0, 0], [0, 1, 0], [0, 0, 1]])
+print("Enter elements of Matrix A (3x3):")
+A = []
+for i in range(3):
+    row = list(map(int, input(f"Row {i+1}: ").split()))
+    A.append(row)
 
-print("Matrix A:\n", A)
+print("\nEnter elements of Matrix B (3x3):")
+B = []
+for i in range(3):
+    row = list(map(int, input(f"Row {i+1}: ").split()))
+    B.append(row)
+
+A = np.matrix(A)
+B = np.matrix(B)
+
+print("\nMatrix A:\n", A)
 print("Matrix B:\n", B)
 
-# Perform operations
 print("\nA + B =\n", A + B)
 print("A - B =\n", A - B)
 print("A × B =\n", np.matmul(A, B))
